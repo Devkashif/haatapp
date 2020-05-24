@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:paddingBottom="@dimen/_14sdp"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/_14sdp">
+
+    <ImageView
+        android:tint="@color/colorTextBlack"
+        android:id="@+id/setting_icon"
+        android:layout_width="@dimen/_16sdp"
+        android:layout_height="@dimen/_16sdp"
+        android:layout_gravity="center" />
+
+    <TextView
+        fontPath="fonts/Nunito-Bold.ttf"
+        android:textAllCaps="true"
+        android:id="@+id/setting_label"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:layout_weight="1"
+        android:drawableEnd="@drawable/ic_right_arrow"
+        android:gravity="start|center_vertical"
+        android:maxLines="1"
+        android:text="Profile"
+        android:textColor="@color/colorTextBlack"
+        android:textSize="@dimen/text_tiny" />
+
+
+</LinearLayout>

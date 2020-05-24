@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/coordinatorLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context="com.haatapp.app.activities.SaveDeliveryLocationActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_marginBottom="170dp"
+                    android:layout_weight="1">
+
+
+                    <fragment
+                        android:id="@+id/map"
+                        android:name="com.google.android.gms.maps.SupportMapFragment"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_alignParentStart="true" />
+
+                    <ImageView
+                        android:id="@+id/imgCurrentLoc"
+                        android:layout_width="@dimen/_35sdp"
+                        android:layout_height="@dimen/_40sdp"
+                        android:layout_alignParentBottom="true"
+                        android:layout_alignParentEnd="true"
+                        android:layout_gravity="end"
+                        android:layout_margin="@dimen/_10sdp"
+                        android:src="@drawable/ic_locator"
+                        android:tint="@color/colorTextBlack" />
+
+                    <ImageView
+                        android:id="@+id/current_loc_img"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:layout_margin="10dp"
+                        android:background="@drawable/ic_other_marker"
+                        android:contentDescription="@string/app_name" />
+                </RelativeLayout>
+
+
+                <ImageView
+                    android:id="@+id/dummy_image_view"
+                    android:layout_width="match_parent"
+                    android:layout_height="240dp"
+                    android:visibility="gone" />
+
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/backArrow"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:contentDescription="@string/app_name"
+                android:src="@drawable/ic_back" />
+
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <include layout="@layout/bottom_sheet_save_delivery_location" />
+
+</android.support.design.widget.CoordinatorLayout>

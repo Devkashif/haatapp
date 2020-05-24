@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".activities.Refer_activity">
+
+
+    <LinearLayout
+        android:layout_weight="1"
+        android:gravity="center"
+        android:layout_marginLeft="10dp"
+
+        android:layout_marginRight="10dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+
+        <TextView
+            android:textSize="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1 Refer = 10 ₹ shopjinuCash"
+
+            />
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Download ShopJinu App,an easy way to purchase with your shop, Download with this below link and enter refer code and earn 5kg aalu on your first order"
+
+            />
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+
+        <LinearLayout
+
+            android:layout_marginLeft="10dp"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/invitation"
+
+                />
+<TextView
+    android:layout_marginTop="5dp"
+    android:gravity="center"
+    android:textSize="10dp"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Refer the app to other"
+    />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/terminal"
+
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+
+                android:textSize="10dp"
+                android:text="Enter refer code in new sign in"
+                />
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+
+            android:layout_marginRight="10dp"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/money"
+
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+
+                android:textSize="10dp"
+                android:text="Get 10 ₹ wallet cash in your account"
+                />
+
+
+        </LinearLayout>
+
+
+
+
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_weight="0.8"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+
+        <LinearLayout
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_width="0dp"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/whatsup_send"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/whatsapp"
+                />
+
+            <TextView
+                android:layout_marginTop="5dp"
+                android:textSize="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="WhatsApp"
+                />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:visibility="gone"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_width="0dp"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/gamil_send"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/gmail"
+                />
+
+            <TextView
+                android:layout_marginTop="5dp"
+                android:textSize="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Gmail"
+                />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_width="0dp"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/more_send"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/more"
+                />
+
+            <TextView
+                android:layout_marginTop="5dp"
+                android:textSize="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="More"
+                />
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Share your personal invite code"
+
+            />
+        <TextView
+            android:id="@+id/personal_code"
+            android:layout_marginTop="5dp"
+            android:textSize="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="219645"
+
+            />
+        <TextView
+            android:id="@+id/copy_code"
+            android:gravity="center"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/refer"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:text="  Tab to copy  "
+
+            />
+
+
+
+
+    </LinearLayout>
+
+
+
+
+
+
+
+
+
+</LinearLayout>

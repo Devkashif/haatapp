@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#ffffff</color>
+    <color name="colorPrimaryToolbar">#97807b</color>
+    <color name="colorPrimaryDark">#FFF</color>
+    <color name="colorAccent">#ff6d00</color>
+    <color name="colorTransparent">#00ff6d00</color>
+
+    <color name="colorPrimaryText">#303338</color>
+    <color name="colorSecondaryText">#888888</color>
+    <color name="colorGreen">#00a551</color>
+    <color name="colorRed">#b31101</color>
+    <color name="colorWhite">#FFF</color>
+    <color name="colorTextWhite">#FFF</color>
+    <color name="colorTextBlack">#95a5a6</color>
+    <color name="background_color">#f5f5f5</color>
+
+    <color name="theme">#95a5a6</color>
+    <color name="grey">#a4a4a4</color>
+    <color name="light_grey">#dcdcdc</color>
+
+    <color name="shimmer_color">#bf4f51</color>
+
+    <array name="array_dot_active">
+        <item>@color/grey</item>
+        <item>@color/grey</item>
+        <item>@color/grey</item>
+    </array>
+
+    <array name="array_dot_inactive">
+        <item>@color/light_grey</item>
+        <item>@color/light_grey</item>
+        <item>@color/light_grey</item>
+    </array>
+</resources>

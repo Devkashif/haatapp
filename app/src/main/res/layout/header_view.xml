@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.haatapp.app.HeaderView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/colorTransparent"
+    android:orientation="vertical">
+
+    <!-- Title -->
+    <TextView
+        android:maxLines="1"
+        android:id="@+id/header_view_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Helloxcdc"
+        android:layout_marginLeft="20sp"
+        android:textColor="#000"
+        android:textSize="16sp"
+        />
+
+    <!-- Subtitle -->
+    <TextView
+        android:maxLines="1"
+        android:id="@+id/header_view_sub_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#222121"
+        android:text="hsdjsd"
+        android:layout_marginLeft="20sp"
+        android:textSize="14sp"
+        />
+
+
+</com.haatapp.app.HeaderView>

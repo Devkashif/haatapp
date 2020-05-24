@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="horizontal"
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="70dp">
+<LinearLayout
+    android:gravity="center|left"
+    android:layout_marginLeft="5dp"
+    android:layout_weight="2"
+    android:layout_width="0dp"
+    android:layout_height="70dp">
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:id="@+id/id"
+        android:visibility="gone"
+        />
+    <TextView
+        android:id="@+id/name_promo"
+        android:textSize="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Name"
+        />
+
+</LinearLayout>
+    <LinearLayout
+        android:layout_marginRight="5dp"
+        android:gravity="center|right"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:layout_width="0dp"
+        android:layout_height="70dp">
+        <TextView
+            android:id="@+id/amount"
+            android:textSize="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="30"
+
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="  %"
+            />
+
+
+    </LinearLayout>
+
+</LinearLayout>

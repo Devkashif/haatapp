@@ -1,0 +1,955 @@
+{
+  "project_info": {
+    "project_number": "547463009938",
+    "firebase_url": "https://foodie-17d34.firebaseio.com",
+    "project_id": "foodie-17d34",
+    "storage_bucket": "foodie-17d34.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:547463009938:android:038ee2ac3cbdb406",
+        "android_client_info": {
+          "package_name": "com.shopjinu.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "547463009938-srvt7jtcthvdknj72b7q166obpcfhcfm.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.shopjinu.app",
+            "certificate_hash": "fec9fc6f4e080bfc78d9abed577273a4c9d48f18"
+          }
+        },
+        {
+          "client_id": "547463009938-f8aimp1p2abn284cs0vflphkq11a70jd.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.shopjinu.app",
+            "certificate_hash": "c1af8fe6224d4ec2448c56ee1d8d93b3095cb438"
+          }
+        },
+        {
+          "client_id": "547463009938-6vo0fomdofg13dp0dialboolp1vnhig7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.shopjinu.app",
+            "certificate_hash": "5f3995b5c6b4696575400e7fff4d391cf5acfa13"
+          }
+        },
+        {
+          "client_id": "547463009938-fh4on6rs3eqta37svhgid50n4o68ukuh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCJ_oE0jidKQCBc5G798KCD7f189NsHUbc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "547463009938-jhvh55oeia0b4vivkl28h6ct21o1ehq9.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.foodieexpress.app"
+              }
+            },
+            {
+              "client_id": "547463009938-fh4on6rs3eqta37svhgid50n4o68ukuh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:547463009938:android:e7ada52f4efc0972",
+        "android_client_info": {
+          "package_name": "com.foodie.provider"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "547463009938-f8gq83l454okua27jc35cd5ktgcgioa9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.foodie.provider",
+            "certificate_hash": "5f3995b5c6b4696575400e7fff4d391cf5acfa13"
+          }
+        },
+        {
+          "client_id": "547463009938-fh4on6rs3eqta37svhgid50n4o68ukuh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCJ_oE0jidKQCBc5G798KCD7f189NsHUbc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "547463009938-jhvh55oeia0b4vivkl28h6ct21o1ehq9.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.foodieexpress.app"
+              }
+            },
+            {
+              "client_id": "547463009938-fh4on6rs3eqta37svhgid50n4o68ukuh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:547463009938:android:3ea58e6eed7642c1",
+        "android_client_info": {
+          "package_name": "com.cakesquare.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "547463009938-hp3m6vvm9rb6gqlfe4rpkr5mjrubcq4e.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.cakesquare.app",
+            "certificate_hash": "fec9fc6f4e080bfc78d9abed577273a4c9d48f18"
+          }
+        },
+        {
+          "client_id": "547463009938-296qh5liq7bm8pq58n1evfc9c1lq2gen.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.cakesquare.app",
+            "certificate_hash": "c1af8fe6224d4ec2448c56ee1d8d93b3095cb438"
+          }
+        },
+        {
+          "client_id": "547463009938-fh4on6rs3eqta37svhgid50n4o68ukuh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCJ_oE0jidKQCBc5G798KCD7f189NsHUbc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "547463009938-jhvh55oeia0b4vivkl28h6ct21o1ehq9.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.foodieexpress.app"
+              }
+            },
+            {
+              "client_id": "547463009938-fh4on6rs3eqta37svhgid50n4o68ukuh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:547463009938:android:025ebc9e8f698e4a",
+        "android_client_info": {
+          "package_name": "com.cakesquare.provider"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "547463009938-sb40cljocak4nsc5c1hadeghn7696tiu.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.cakesquare.provider",
+            "certificate_hash": "fec9fc6f4e080bfc78d9abed577273a4c9d48f18"
+          }
+        },
+        {
+          "client_id": "547463009938-7up5sd09jdaiqqku307cb5is84cuob28.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.cakesquare.provider",
+            "certificate_hash": "5f3995b5c6b4696575400e7fff4d391cf5acfa13"
+          }
+        },
+        {
+          "client_id": "547463009938-fh4on6rs3eqta37svhgid50n4o68ukuh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCJ_oE0jidKQCBc5G798KCD7f189NsHUbc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "547463009938-jhvh55oeia0b4vivkl28h6ct21o1ehq9.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.foodieexpress.app"
+              }
+            },
+            {
+              "client_id": "547463009938-fh4on6rs3eqta37svhgid50n4o68ukuh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:547463009938:android:6a2ac813b80ca537",
+        "android_client_info": {
+          "package_name": "com.meatcart.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "547463009938-nq074101gse5p0r9gk6vra1tehcsitq0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.meatcart.app",
+            "certificate_hash": "fec9fc6f4e080bfc78d9abed577273a4c9d48f18"
+          }
+        },
+        {
+          "client_id": "547463009938-9frnji0oba746tbnro31bujr7f4mevc3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.meatcart.app",
+            "certificate_hash": "5f3995b5c6b4696575400e7fff4d391cf5acfa13"
+          }
+        },
+        {
+          "client_id": "547463009938-fh4on6rs3eqta37svhgid50n4o68ukuh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCJ_oE0jidKQCBc5G798KCD7f189NsHUbc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "547463009938-jhvh55oeia0b4vivkl28h6ct21o1ehq9.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.foodieexpress.app"
+              }
+            },
+            {
+              "client_id": "547463009938-fh4on6rs3eqta37svhgid50n4o68ukuh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:547463009938:android:454dbc49ee7930d1",
+        "android_client_info": {
+          "package_name": "com.meatcart.partner"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "547463009938-a1kgg23fglei28tq24akeb215urg72ot.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.meatcart.partner",
+            "certificate_hash": "fec9fc6f4e080bfc78d9abed577273a4c9d48f18"
+          }
+        },
+        {
+          "client_id": "547463009938-kvtv0uhepsn4id5j5nkq78n9m1nc1f5k.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.meatcart.partner",
+            "certificate_hash": "5f3995b5c6b4696575400e7fff4d391cf5acfa13"
+          }
+        },
+        {
+          "client_id": "547463009938-fh4on6rs3eqta37svhgid50n4o68ukuh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCJ_oE0jidKQCBc5G798KCD7f189NsHUbc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "547463009938-jhvh55oeia0b4vivkl28h6ct21o1ehq9.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.foodieexpress.app"
+              }
+            },
+            {
+              "client_id": "547463009938-fh4on6rs3eqta37svhgid50n4o68ukuh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:547463009938:android:fcd7a599ab51768c",
+        "android_client_info": {
+          "package_name": "com.floracart.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "547463009938-np48ft2gs2d7g581lhb26a0l3eu3p8k9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.floracart.app",
+            "certificate_hash": "fec9fc6f4e080bfc78d9abed577273a4c9d48f18"
+          }
+        },
+        {
+          "client_id": "547463009938-1ski8801q3v2kde6lvm7jofn7qnsnr5p.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.floracart.app",
+            "certificate_hash": "5f3995b5c6b4696575400e7fff4d391cf5acfa13"
+          }
+        },
+        {
+          "client_id": "547463009938-fh4on6rs3eqta37svhgid50n4o68ukuh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCJ_oE0jidKQCBc5G798KCD7f189NsHUbc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "547463009938-jhvh55oeia0b4vivkl28h6ct21o1ehq9.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.foodieexpress.app"
+              }
+            },
+            {
+              "client_id": "547463009938-fh4on6rs3eqta37svhgid50n4o68ukuh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:547463009938:android:b7c3a2f0d1ece364",
+        "android_client_info": {
+          "package_name": "com.floracart.partner"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "547463009938-fm4mtu3v713avd5ga6bm15603doan46f.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.floracart.partner",
+            "certificate_hash": "fec9fc6f4e080bfc78d9abed577273a4c9d48f18"
+          }
+        },
+        {
+          "client_id": "547463009938-i7pp3bjeh6fdm405a1h4li4epjpfdsdt.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.floracart.partner",
+            "certificate_hash": "5f3995b5c6b4696575400e7fff4d391cf5acfa13"
+          }
+        },
+        {
+          "client_id": "547463009938-fh4on6rs3eqta37svhgid50n4o68ukuh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCJ_oE0jidKQCBc5G798KCD7f189NsHUbc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "547463009938-jhvh55oeia0b4vivkl28h6ct21o1ehq9.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.foodieexpress.app"
+              }
+            },
+            {
+              "client_id": "547463009938-fh4on6rs3eqta37svhgid50n4o68ukuh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:547463009938:android:b6c6071bc6510e5e",
+        "android_client_info": {
+          "package_name": "com.medcart.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "547463009938-73o5joh79mtqbea130ng2ecvh2dt9vgu.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.medcart.app",
+            "certificate_hash": "fec9fc6f4e080bfc78d9abed577273a4c9d48f18"
+          }
+        },
+        {
+          "client_id": "547463009938-ihpcvv2m388phqcsm4g68r8a83hj26hs.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.medcart.app",
+            "certificate_hash": "5f3995b5c6b4696575400e7fff4d391cf5acfa13"
+          }
+        },
+        {
+          "client_id": "547463009938-fh4on6rs3eqta37svhgid50n4o68ukuh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCJ_oE0jidKQCBc5G798KCD7f189NsHUbc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "547463009938-jhvh55oeia0b4vivkl28h6ct21o1ehq9.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.foodieexpress.app"
+              }
+            },
+            {
+              "client_id": "547463009938-fh4on6rs3eqta37svhgid50n4o68ukuh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:547463009938:android:d7b06301d91cfb5c",
+        "android_client_info": {
+          "package_name": "com.weedcart.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "547463009938-3352mvnpndblml01a45cdkimt13uvu4r.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.weedcart.app",
+            "certificate_hash": "fec9fc6f4e080bfc78d9abed577273a4c9d48f18"
+          }
+        },
+        {
+          "client_id": "547463009938-bm885kcscgjke9dq273llsb918dvnjrb.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.weedcart.app",
+            "certificate_hash": "5f3995b5c6b4696575400e7fff4d391cf5acfa13"
+          }
+        },
+        {
+          "client_id": "547463009938-fh4on6rs3eqta37svhgid50n4o68ukuh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCJ_oE0jidKQCBc5G798KCD7f189NsHUbc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "547463009938-jhvh55oeia0b4vivkl28h6ct21o1ehq9.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.foodieexpress.app"
+              }
+            },
+            {
+              "client_id": "547463009938-fh4on6rs3eqta37svhgid50n4o68ukuh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:547463009938:android:356435f9e6580666",
+        "android_client_info": {
+          "package_name": "com.medcart.partner"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "547463009938-16gr5tqsouoeih1s5qn8kjiq03niune8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.medcart.partner",
+            "certificate_hash": "fec9fc6f4e080bfc78d9abed577273a4c9d48f18"
+          }
+        },
+        {
+          "client_id": "547463009938-ceqa35pj2sko67bpuakvm3lo160umpot.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.medcart.partner",
+            "certificate_hash": "5f3995b5c6b4696575400e7fff4d391cf5acfa13"
+          }
+        },
+        {
+          "client_id": "547463009938-fh4on6rs3eqta37svhgid50n4o68ukuh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCJ_oE0jidKQCBc5G798KCD7f189NsHUbc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "547463009938-jhvh55oeia0b4vivkl28h6ct21o1ehq9.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.foodieexpress.app"
+              }
+            },
+            {
+              "client_id": "547463009938-fh4on6rs3eqta37svhgid50n4o68ukuh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:547463009938:android:f69b94931c695b7b",
+        "android_client_info": {
+          "package_name": "com.weedcart.partner"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "547463009938-a6mvqkj4uimroatg0kvu2p463ojljv3n.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.weedcart.partner",
+            "certificate_hash": "fec9fc6f4e080bfc78d9abed577273a4c9d48f18"
+          }
+        },
+        {
+          "client_id": "547463009938-krqrud3u6f67c608kvcremb7bjq3bb6c.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.weedcart.partner",
+            "certificate_hash": "5f3995b5c6b4696575400e7fff4d391cf5acfa13"
+          }
+        },
+        {
+          "client_id": "547463009938-fh4on6rs3eqta37svhgid50n4o68ukuh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCJ_oE0jidKQCBc5G798KCD7f189NsHUbc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "547463009938-jhvh55oeia0b4vivkl28h6ct21o1ehq9.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.foodieexpress.app"
+              }
+            },
+            {
+              "client_id": "547463009938-fh4on6rs3eqta37svhgid50n4o68ukuh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:547463009938:android:deaece6b08749e22",
+        "android_client_info": {
+          "package_name": "com.grocery.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "547463009938-lseoc62898d8vi2eoh9iftmsd34k1ue6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.grocery.app",
+            "certificate_hash": "fec9fc6f4e080bfc78d9abed577273a4c9d48f18"
+          }
+        },
+        {
+          "client_id": "547463009938-gv0mmli12l27chp5lr5pluskv169kdus.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.grocery.app",
+            "certificate_hash": "5f3995b5c6b4696575400e7fff4d391cf5acfa13"
+          }
+        },
+        {
+          "client_id": "547463009938-fh4on6rs3eqta37svhgid50n4o68ukuh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCJ_oE0jidKQCBc5G798KCD7f189NsHUbc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "547463009938-jhvh55oeia0b4vivkl28h6ct21o1ehq9.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.foodieexpress.app"
+              }
+            },
+            {
+              "client_id": "547463009938-fh4on6rs3eqta37svhgid50n4o68ukuh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:547463009938:android:5f1ce8c3499bde86",
+        "android_client_info": {
+          "package_name": "com.grocery.partner"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "547463009938-o88hul94bftu86s8jejap1u2fuqqoios.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.grocery.partner",
+            "certificate_hash": "fec9fc6f4e080bfc78d9abed577273a4c9d48f18"
+          }
+        },
+        {
+          "client_id": "547463009938-1vgbla02ao50erb2aofljinjkaq1k10k.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.grocery.partner",
+            "certificate_hash": "5f3995b5c6b4696575400e7fff4d391cf5acfa13"
+          }
+        },
+        {
+          "client_id": "547463009938-fh4on6rs3eqta37svhgid50n4o68ukuh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCJ_oE0jidKQCBc5G798KCD7f189NsHUbc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "547463009938-jhvh55oeia0b4vivkl28h6ct21o1ehq9.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.foodieexpress.app"
+              }
+            },
+            {
+              "client_id": "547463009938-fh4on6rs3eqta37svhgid50n4o68ukuh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:547463009938:android:20746048f1a87821",
+        "android_client_info": {
+          "package_name": "com.oloeats.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "547463009938-v23185m6521eo651p0meu80lttjpovn5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.oloeats.app",
+            "certificate_hash": "fec9fc6f4e080bfc78d9abed577273a4c9d48f18"
+          }
+        },
+        {
+          "client_id": "547463009938-h098q662oqugc6tp365qhipnfus29d20.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.oloeats.app",
+            "certificate_hash": "5f3995b5c6b4696575400e7fff4d391cf5acfa13"
+          }
+        },
+        {
+          "client_id": "547463009938-fh4on6rs3eqta37svhgid50n4o68ukuh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCJ_oE0jidKQCBc5G798KCD7f189NsHUbc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "547463009938-jhvh55oeia0b4vivkl28h6ct21o1ehq9.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.foodieexpress.app"
+              }
+            },
+            {
+              "client_id": "547463009938-fh4on6rs3eqta37svhgid50n4o68ukuh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:547463009938:android:b7b176bc243e1c65",
+        "android_client_info": {
+          "package_name": "com.oloeats.partner"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "547463009938-bhguboc1qe2jem2tvusfsr3gkph8m14o.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.oloeats.partner",
+            "certificate_hash": "fec9fc6f4e080bfc78d9abed577273a4c9d48f18"
+          }
+        },
+        {
+          "client_id": "547463009938-ejetqq7g05f9b7ob0nguucq0a3s7m4b3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.oloeats.partner",
+            "certificate_hash": "5f3995b5c6b4696575400e7fff4d391cf5acfa13"
+          }
+        },
+        {
+          "client_id": "547463009938-fh4on6rs3eqta37svhgid50n4o68ukuh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCJ_oE0jidKQCBc5G798KCD7f189NsHUbc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "547463009938-jhvh55oeia0b4vivkl28h6ct21o1ehq9.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.foodieexpress.app"
+              }
+            },
+            {
+              "client_id": "547463009938-fh4on6rs3eqta37svhgid50n4o68ukuh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,42 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/item_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/colorWhite"
+    android:orientation="vertical"
+    android:layout_marginBottom="@dimen/_10sdp"
+    android:padding="8dp">
+
+    <TextView
+        android:id="@+id/time_txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/_10sdp"
+        android:textColor="@color/colorPrimaryText"
+        android:layout_marginBottom="@dimen/_10sdp"
+        android:textSize="@dimen/text_medium" />
+
+    <TextView
+        android:id="@+id/amount_txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="@dimen/_10sdp"
+        android:textColor="@color/colorPrimaryText"
+        android:textSize="@dimen/text_medium"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/status_txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/time_txt"
+        android:layout_marginLeft="@dimen/_10sdp"
+        android:layout_marginStart="@dimen/_10sdp"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:textSize="@dimen/text_small"
+        android:textColor="@color/theme" />
+
+</RelativeLayout>

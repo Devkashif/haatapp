@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.contact">
+
+    <LinearLayout
+        android:id="@+id/above"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <android.support.design.widget.AppBarLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:theme="@style/AppTheme.AppBarOverlay">
+
+            <android.support.v7.widget.Toolbar
+                android:id="@+id/toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                android:background="@color/colorPrimary"
+                app:popupTheme="@style/AppTheme.PopupOverlay" >
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Contact Sync"
+                    android:textStyle="bold"
+                    android:textSize="25sp"
+                    android:textColor="@color/theme"
+                    />
+                <LinearLayout
+                    android:layout_marginRight="10dp"
+                    android:gravity="center|right"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                </LinearLayout>
+
+            </android.support.v7.widget.Toolbar>
+
+        </android.support.design.widget.AppBarLayout>
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_below="@+id/above"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_above="@+id/navigation"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+<LinearLayout
+    android:layout_weight="1"
+    android:layout_width="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:layout_height="0dp">
+
+<ImageView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+
+    android:src="@drawable/contact_sync"
+    />
+    <LinearLayout
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="30dp">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Introducing "
+        />
+
+        <TextView
+            android:layout_marginLeft="5dp"
+            android:textColor="#e67e22"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Haat Contact "
+            />
+    </LinearLayout>
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textSize="9dp"
+    android:text="Link your phone book and get exclusive benefits"
+
+    />
+
+
+</LinearLayout>
+
+        <LinearLayout
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="0dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:text="1.  Earn goCash every time a contact book with Haat"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:text="2. Discover contact who has visted your city you search for  and get all your question answer by people you know and trust"
+                android:layout_height="wrap_content" />
+
+
+
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_weight="0.5"
+            android:layout_margin="5dp"
+            android:background="#dfe6e9"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="0dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:gravity="center"
+                android:textSize="12sp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:textStyle="bold"
+                android:layout_height="wrap_content"
+                android:text="Saurabh and prateek and 10 others earn Haat Cash by linking their phonebook"
+
+                />
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_weight="1"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="0dp">
+            <Button
+                android:id="@+id/link_phonebook"
+                android:background="#e67e22"
+                android:layout_margin="10dp"
+                android:textColor="@color/colorWhite"
+                android:text="LINK YOUR PHONE BOOK"
+                android:layout_width="match_parent"
+                android:layout_height="60dp" />
+
+
+        </LinearLayout>
+
+
+
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="#eeeeee"
+        android:layout_above="@+id/navigation"
+        />
+    <android.support.design.widget.BottomNavigationView
+        android:id="@+id/navigation"
+        android:layout_width="match_parent"
+        android:fitsSystemWindows="true"
+        android:layout_height="56dp"
+
+        app:itemTextColor="@drawable/nav_item_color_state"
+        app:itemIconTint="@drawable/nav_item_color_state"
+        android:layout_alignParentBottom="true"
+
+        app:menu="@menu/my_navigation_items" />
+
+
+
+
+
+</RelativeLayout>

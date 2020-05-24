@@ -1,0 +1,132 @@
+buildscript {
+    repositories {
+        maven { url 'https://maven.fabric.io/public' }
+    }
+
+    dependencies {
+        classpath 'io.fabric.tools:gradle:1.+'
+    }
+}
+
+apply plugin: 'com.android.application'
+apply plugin: 'kotlin-android-extensions'
+apply plugin: 'kotlin-android'
+apply plugin: 'io.fabric'
+
+repositories {
+    maven { url 'https://maven.fabric.io/public' }
+    google()
+    mavenCentral()
+    maven { url 'https://maven.fabric.io/public' }
+
+}
+
+android {
+    compileSdkVersion 29
+    defaultConfig {
+
+        applicationId "com.shopjinuuser.app"
+        minSdkVersion 19
+        targetSdkVersion 29
+        vectorDrawables.useSupportLibrary = true
+        versionCode 12
+        versionName "1.7"
+        multiDexEnabled true
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+    }
+    aaptOptions {
+        cruncherEnabled = false
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+    dexOptions {
+        javaMaxHeapSize "4g"
+    }
+    lintOptions {
+        abortOnError false
+    }
+    configurations {
+        all {
+            exclude module: 'httpclient'
+            exclude module: 'commons-logging'
+        }
+    }
+    dataBinding
+            {
+                enabled = true
+            }
+}
+
+
+dependencies {
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+    androidTestImplementation('com.android.support.test.espresso:espresso-core:2.2.2', {
+        exclude group: 'com.android.support', module: 'support-annotations'
+    })
+    //Sticky header
+    //Textview number count animation
+    //Card view
+    implementation('com.crashlytics.sdk.android:crashlytics:2.6.8@aar') {
+        transitive = true
+    }
+//    //Braintree
+//    compile 'com.braintreepayments.api:drop-in:3.+'
+    implementation 'com.stripe:stripe-android:2.0.2'
+    implementation 'com.braintreepayments:card-form:3.0.3'
+//    compile 'com.loopj.android:android-async-http:1.4.9'
+//    compile 'com.lukekorth:mailable_log:0.1.6'
+//    compile 'com.squareup.retrofit:retrofit:1.9.0'
+    //noinspection GradleCompatible
+    implementation 'com.android.volley:volley:1.1.1'
+
+    implementation 'com.google.android.gms:play-services-wallet:11.4.2'
+    //noinspection GradleCompatible
+    implementation 'com.google.firebase:firebase-messaging:11.4.2'
+    //noinspection GradleCompatible
+    implementation 'com.android.support:appcompat-v7:26.1.0'
+    implementation 'com.android.support:palette-v7:26.1.0'
+    implementation 'com.android.support.constraint:constraint-layout:1.0.2'
+    implementation 'com.android.support:design:26.1.0'
+    implementation 'com.jakewharton:butterknife:8.8.1'
+    implementation 'com.android.support:recyclerview-v7:26.1.0'
+    implementation 'com.android.support:multidex:1.0.0'
+    implementation 'com.github.bumptech.glide:glide:3.8.0'
+    implementation 'com.cepheuen.elegant-number-button:lib:1.0.2'
+    implementation 'de.hdodenhof:circleimageview:2.1.0'
+    implementation 'uk.co.chrisjenx:calligraphy:2.3.0'
+    implementation 'com.afollestad:sectioned-recyclerview:0.2.3'
+    implementation 'com.google.android.gms:play-services-auth:11.4.2'
+    implementation 'com.google.android.gms:play-services-maps:11.4.2'
+    implementation 'com.google.android.gms:play-services-places:11.4.2'
+    implementation 'com.google.android.gms:play-services-location:11.4.2'
+    implementation 'com.squareup.retrofit2:retrofit:2.3.0'
+    implementation 'com.google.code.gson:gson:2.8.1'
+    implementation 'com.squareup.picasso:picasso:2.5.2'
+    implementation 'com.pubnub:pubnub-gson:4.10.0'
+    implementation 'me.himanshusoni.chatmessageview:chat-message-view:1.0.3'
+    implementation 'com.fenchtose:tooltip:0.1.5'
+    implementation 'com.squareup.retrofit2:converter-gson:2.3.0'
+    implementation 'com.squareup.okhttp3:logging-interceptor:3.8.1'
+    implementation 'com.squareup.okhttp3:okhttp:3.8.1'
+    //Facebook
+    implementation 'com.facebook.shimmer:shimmer:0.1.0@aar'
+    implementation 'com.facebook.android:facebook-android-sdk:4.+'
+    implementation 'com.github.amarjain07:StickyScrollView:1.0.2'
+    implementation 'me.philio:pinentryview:1.0.6'
+    implementation 'com.robinhood.ticker:ticker:1.2.0'
+    implementation 'com.android.support:cardview-v7:26.1.0'
+    implementation 'com.sackcentury:shinebutton:0.1.9'
+    implementation 'com.roughike:bottom-bar:2.3.1'
+    implementation 'com.aurelhubert:ahbottomnavigation:2.1.0'
+    implementation 'com.ethanhua:skeleton:1.0.0'
+    implementation 'com.android.support:support-v4:26.1.0'
+    implementation 'com.intuit.sdp:sdp-android:1.0.4'
+    testImplementation 'junit:junit:4.12'
+    annotationProcessor 'com.jakewharton:butterknife-compiler:8.8.1'
+    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
+}
+apply plugin: 'com.google.gms.google-services'

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:padding="10dp"
+    android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:background="@drawable/shadow_view"
+            android:id="@+id/notification_layout"
+            android:padding="10dp"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:text="10% offer for veg orders"
+                android:textSize="@dimen/text_medium"
+                android:id="@+id/offer_description"
+                android:textColor="@color/colorPrimaryText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:text="sep 08,2017"
+                android:textSize="@dimen/text_small"
+                android:layout_marginTop="@dimen/_7sdp"
+                android:id="@+id/validity_date"
+                android:textColor="@color/colorSecondaryText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <TextView
+                fontPath="fonts/Nunito-Bold.ttf"
+                android:text="Use code AD123"
+                android:textSize="@dimen/text_medium"
+                android:layout_marginTop="@dimen/_7sdp"
+                android:id="@+id/offer_code"
+                android:textColor="@color/theme"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+
+</LinearLayout>

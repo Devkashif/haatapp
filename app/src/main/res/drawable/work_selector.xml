@@ -1,0 +1,7 @@
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_checked="true">
+        <bitmap android:src="@drawable/ic_work" android:tint="@color/theme" />
+    </item>
+    <item android:drawable="@drawable/ic_work" android:state_checked="false" />
+
+</selector>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <View
+        android:layout_margin="@dimen/_8sdp"
+        android:layout_width="@dimen/_200sdp"
+        android:layout_height="@dimen/_15sdp"
+        android:background="@color/light_transparent" />
+
+</LinearLayout>

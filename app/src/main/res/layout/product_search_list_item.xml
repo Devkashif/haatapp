@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="@dimen/activity_vertical_margin"
+    android:background="@color/colorTextWhite"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/root_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin">
+
+        <ImageView
+            android:id="@+id/food_type_image"
+            android:layout_width="@dimen/_12sdp"
+            android:layout_height="@dimen/_12sdp"
+            android:layout_marginRight="12dp"
+            android:layout_marginTop="3dp"
+            android:src="@drawable/ic_veg" />
+
+
+        <TextView
+            android:id="@+id/dish_name_text"
+            fontPath="fonts/Nunito-SemiBold.ttf"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/food_type_image"
+            android:layout_alignStart="@+id/price_text"
+            android:layout_toStartOf="@+id/relativeLayout"
+            android:gravity="center_vertical"
+            android:maxLines="1"
+            android:text="Chicken Ke"
+            android:textColor="@color/colorPrimaryText"
+            android:textSize="@dimen/text_small" />
+
+        <TextView
+            android:id="@+id/price_text"
+            fontPath="fonts/Nunito-Bold.ttf"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/dish_name_text"
+            android:layout_marginTop="8dp"
+            android:layout_toRightOf="@+id/food_type_image"
+            android:text="$100"
+            android:textColor="@color/colorTextBlack"
+            android:textSize="@dimen/text_small" />
+
+        <TextView
+            android:id="@+id/category_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/price_text"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="8dp"
+            android:layout_toRightOf="@+id/food_type_image"
+            android:gravity="center_vertical"
+            android:maxLines="1"
+            android:text="Starter"
+            android:textColor="@color/colorSecondaryText"
+            android:textSize="@dimen/text_small"
+            android:visibility="gone"
+            app:layout_constraintLeft_toLeftOf="@+id/price_text"
+            app:layout_constraintTop_toBottomOf="@+id/price_text" />
+
+        <RelativeLayout
+            android:id="@+id/relativeLayout"
+            android:layout_width="@dimen/_80sdp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true">
+
+            <include layout="@layout/add_card_button_layout" />
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+
+    <TextView
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:id="@+id/view_full_menu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawableEnd="@drawable/ic_right_arrow"
+        android:drawableTint="@color/theme"
+        android:gravity="center"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:text="View full menu "
+        android:textColor="@color/theme" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/activity_vertical_margin"
+        android:layout_marginTop="@dimen/activity_vertical_margin_half"
+        android:background="#eee">
+
+    </View>
+
+</LinearLayout>

@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:fillViewport="true"
+    tools:context="com.haatapp.app.activities.SignUpActivity">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/background_color"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/back_img"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/activity_horizontal_margin"
+            android:contentDescription="@string/back"
+            android:src="@drawable/ic_back"
+            android:visibility="gone" />
+
+        <LinearLayout
+            android:id="@+id/linearLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/activity_horizontal_margin"
+            android:orientation="vertical"
+            tools:layout_editor_absoluteY="25dp">
+
+            <ImageView
+                android:padding="@dimen/_10sdp"
+                android:id="@+id/app_logo"
+                android:layout_width="@dimen/_120sdp"
+                android:layout_height="@dimen/_120sdp"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/_30sdp"
+                android:contentDescription="@string/login"
+                android:src="@drawable/app_icon"
+                android:visibility="invisible"
+
+                />
+
+
+            <EditText
+                android:id="@+id/name"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/edit_text_size"
+                android:layout_marginTop="@dimen/activity_vertical_margin"
+                android:background="@drawable/shadow_view"
+                android:drawablePadding="@dimen/_10sdp"
+                android:drawableStart="@drawable/login_left"
+                android:hint="@string/name"
+                android:imeOptions="actionNext"
+                android:maxLines="1"
+                android:paddingStart="@dimen/_10sdp"
+                android:paddingEnd="@dimen/_10sdp"
+                app:theme="@style/MyEditTextTheme" />
+
+            <EditText
+                android:id="@+id/email"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/edit_text_size"
+                android:layout_marginTop="@dimen/activity_vertical_margin"
+                android:background="@drawable/shadow_view"
+                android:drawablePadding="@dimen/_10sdp"
+                android:drawableStart="@drawable/ic_mail"
+                android:hint="@string/email_address"
+                android:imeOptions="actionNext"
+                android:inputType="textEmailAddress"
+                android:maxLines="1"
+                android:paddingStart="@dimen/_10sdp"
+                android:paddingEnd="@dimen/_10sdp"
+                app:theme="@style/MyEditTextTheme" />
+
+            <RelativeLayout
+                android:id="@+id/mobile_number_layout"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/edit_text_size"
+                android:layout_marginTop="@dimen/activity_vertical_margin"
+                android:background="@drawable/shadow_view">
+
+                <ImageView
+                    android:id="@+id/countryImage"
+                    android:layout_width="@dimen/_20sdp"
+                    android:layout_height="@dimen/_20sdp"
+                    android:layout_centerVertical="true"
+                    android:layout_marginStart="@dimen/_10sdp"
+                    android:src="@drawable/flag_in" />
+
+                <TextView
+                    android:id="@+id/countryNumber"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginStart="@dimen/_6sdp"
+                    android:layout_toEndOf="@+id/countryImage"
+                    android:gravity="center"
+                    android:text="+91"
+                    android:textSize="@dimen/text_normal" />
+
+                <EditText
+                    android:id="@+id/et_mobile_number"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentBottom="true"
+                    android:layout_toEndOf="@+id/countryNumber"
+                    android:background="@null"
+                    android:hint="@string/mobile_number"
+                    android:imeOptions="actionDone"
+                    android:inputType="number"
+                    android:maxLines="1"
+                    android:paddingStart="@dimen/_10sdp"
+                    android:paddingEnd="@dimen/_10sdp"
+                    android:textSize="@dimen/text_normal" />
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:id="@+id/password_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/activity_vertical_margin">
+
+                <EditText
+                    android:id="@+id/password"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/edit_text_size"
+                    android:background="@drawable/shadow_view"
+                    android:drawablePadding="@dimen/_10sdp"
+                    android:drawableStart="@drawable/password_left"
+                    android:hint="@string/password"
+                    android:imeOptions="actionNext"
+                    android:inputType="textPassword"
+                    android:maxLines="1"
+                    android:paddingStart="@dimen/_10sdp"
+                    android:paddingEnd="@dimen/_10sdp"
+                    app:theme="@style/MyEditTextTheme" />
+
+                <ImageView
+                    android:id="@+id/password_eye_img"
+                    android:layout_width="@dimen/_20sdp"
+                    android:layout_height="@dimen/_20sdp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginEnd="@dimen/_8sdp"
+                    android:src="@drawable/ic_eye_open" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/confirm_password_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/activity_vertical_margin">
+
+                <EditText
+                    android:id="@+id/confirm_password"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/edit_text_size"
+                    android:background="@drawable/shadow_view"
+                    android:drawablePadding="@dimen/_10sdp"
+                    android:drawableStart="@drawable/password_left"
+                    android:hint="@string/confirm_password"
+                    android:inputType="textPassword"
+                    android:imeOptions="actionDone"
+                    android:maxLines="1"
+                    android:paddingStart="@dimen/_10sdp"
+                    android:paddingEnd="@dimen/_10sdp"
+                    app:theme="@style/MyEditTextTheme" />
+
+                <ImageView
+                    android:id="@+id/confirm_password_eye_img"
+                    android:layout_width="@dimen/_20sdp"
+                    android:layout_height="@dimen/_20sdp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginEnd="@dimen/_8sdp"
+                    android:src="@drawable/ic_eye_open" />
+
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/activity_vertical_margin">
+
+                <EditText
+                    android:id="@+id/refer_code"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/edit_text_size"
+                    android:background="@drawable/shadow_view"
+                    android:drawablePadding="@dimen/_10sdp"
+                    android:drawableStart="@drawable/password_left"
+                    android:hint="Refer Code"
+                    android:inputType="text"
+                    android:imeOptions="actionDone"
+                    android:maxLines="1"
+                    android:paddingStart="@dimen/_10sdp"
+                    android:paddingEnd="@dimen/_10sdp"
+                    app:theme="@style/MyEditTextTheme" />
+
+            </RelativeLayout>
+            <Button
+                android:id="@+id/sign_up"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/activity_vertical_margin"
+                android:background="@color/theme"
+                android:text="@string/register"
+                android:textColor="@android:color/white" />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+</ScrollView>

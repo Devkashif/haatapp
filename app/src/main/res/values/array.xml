@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="profile_settings">
+        <item>"Manage Address"</item>
+        <item>"Favorites"</item>
+        <item>"Payment"</item>
+        <item>"My Orders"</item>
+        <!--<item>"Notifications"</item>-->
+        <item>"Promotion Details"</item>
+        <!--<item>"Change Language"</item>-->
+        <item>"Change Password"</item>
+    </string-array>
+
+    <string-array name="languages">
+        <item>English</item>
+        <item>Arabic</item>
+    </string-array>
+
+
+</resources>

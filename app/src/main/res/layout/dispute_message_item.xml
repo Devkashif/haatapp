@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/root_layout"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/_45sdp"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_weight="1"
+        android:id="@+id/dispute_message"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:drawableEnd="@drawable/ic_right_arrow"
+        android:gravity="start|center_vertical"
+        android:maxLines="1"
+        android:text="@string/help"
+        android:textColor="@color/colorPrimaryText"
+        android:textSize="@dimen/text_small" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@color/light_grey"/>
+
+</LinearLayout>

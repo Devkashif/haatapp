@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="?android:attr/selectableItemBackground"
+    android:clickable="true"
+    android:orientation="vertical"
+    android:padding="8dp">
+
+    <ImageView
+        android:id="@+id/dishImg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:contentDescription="@string/dish"
+        android:scaleType="fitXY"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+       />
+
+
+    <RelativeLayout
+        android:id="@+id/disname_layout"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/dishImg">
+
+        <ImageView
+            android:id="@+id/food_type_image"
+            android:layout_width="12dp"
+            android:layout_height="12dp"
+            android:layout_marginTop="3dp"
+            android:src="@drawable/ic_nonveg" />
+
+        <TextView
+            android:id="@+id/dish_name_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text="     Spicy Fish Tikka"
+            android:textColor="@color/colorPrimaryText"
+            android:textSize="@dimen/text_medium" />
+
+
+    </RelativeLayout>
+
+
+    <TextView
+        android:id="@+id/category_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="3dp"
+        android:gravity="center_vertical"
+        android:text="Starter"
+        android:textColor="@color/colorSecondaryText"
+        android:textSize="@dimen/text_tiny"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/disname_layout" />
+
+    <TextView
+        android:id="@+id/price_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="100 $"
+        android:textColor="@color/colorSecondaryText"
+        android:textSize="@dimen/text_small"
+        app:layout_constraintLeft_toLeftOf="@+id/disname_layout"
+        app:layout_constraintTop_toBottomOf="@+id/category_text"
+        android:layout_marginLeft="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="8dp" />
+
+    <Button
+        android:id="@+id/add_btn"
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/button_2"
+        android:minHeight="0dp"
+        android:minWidth="50dp"
+        android:padding="4dp"
+        android:text="Add"
+        android:textColor="#00a551"
+        android:textSize="@dimen/text_small"
+        android:textStyle="bold"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/category_text"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="8dp" />
+</android.support.constraint.ConstraintLayout>

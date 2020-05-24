@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <!-- Data Layout-->
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <RelativeLayout
+                android:id="@+id/re"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingLeft="@dimen/activity_vertical_margin"
+                android:paddingRight="@dimen/activity_vertical_margin"
+                android:paddingTop="@dimen/activity_vertical_margin">
+
+                <ImageView
+                    android:id="@+id/restaurant_image"
+                    android:layout_width="@dimen/_70sdp"
+                    android:layout_height="@dimen/_70sdp"
+                    android:background="@color/light_transparent"
+                    android:contentDescription="@string/restaurant"
+                    android:scaleType="fitXY" />
+
+                <View
+                    android:id="@+id/restaurant_name"
+                    android:layout_width="@dimen/_100sdp"
+                    android:layout_height="@dimen/_12sdp"
+                    android:layout_marginBottom="8dp"
+                    android:layout_marginStart="16dp"
+                    android:layout_toEndOf="@+id/restaurant_image"
+                    android:background="@color/light_transparent" />
+
+                <TextView
+                    android:id="@+id/restaurant_description"
+                    android:layout_width="@dimen/_120sdp"
+                    android:layout_height="@dimen/_12sdp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_below="@+id/restaurant_name"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="-5dp"
+                    android:layout_toEndOf="@+id/restaurant_image"
+                    android:background="@color/light_transparent"
+                    android:maxLines="1" />
+            </RelativeLayout>
+
+
+            <LinearLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_20sdp"
+                    android:layout_marginBottom="@dimen/_7sdp"
+                    android:layout_marginLeft="@dimen/activity_vertical_margin"
+                    android:layout_marginRight="@dimen/activity_vertical_margin"
+                    android:layout_marginTop="@dimen/_7sdp"
+                    android:background="@color/light_transparent" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_20sdp"
+                    android:layout_marginBottom="@dimen/_7sdp"
+                    android:layout_marginLeft="@dimen/activity_vertical_margin"
+                    android:layout_marginRight="@dimen/activity_vertical_margin"
+                    android:layout_marginTop="@dimen/_7sdp"
+                    android:background="@color/light_transparent" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_20sdp"
+                    android:layout_marginBottom="@dimen/_7sdp"
+                    android:layout_marginLeft="@dimen/activity_vertical_margin"
+                    android:layout_marginRight="@dimen/activity_vertical_margin"
+                    android:layout_marginTop="@dimen/_7sdp"
+                    android:background="@color/light_transparent" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_20sdp"
+                    android:layout_marginBottom="@dimen/_7sdp"
+                    android:layout_marginLeft="@dimen/activity_vertical_margin"
+                    android:layout_marginRight="@dimen/activity_vertical_margin"
+                    android:layout_marginTop="@dimen/_7sdp"
+                    android:background="@color/light_transparent" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginBottom="4dp"
+                android:layout_marginTop="20dp"
+                android:background="#eee" />
+
+            <!-- Order Payment Detail Layout -->
+            <LinearLayout
+                android:visibility="gone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="@dimen/activity_vertical_margin">
+
+                <View
+
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_12sdp"
+                    android:background="@color/light_transparent" />
+
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_12sdp"
+                    android:layout_marginTop="@dimen/activity_vertical_margin"
+                    android:background="@color/light_transparent" />
+
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_12sdp"
+                    android:layout_marginTop="@dimen/activity_vertical_margin"
+                    android:background="@color/light_transparent" />
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_12sdp"
+                    android:layout_marginTop="@dimen/activity_vertical_margin"
+                    android:background="@color/light_transparent" />
+
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1sp"
+                    android:layout_marginTop="@dimen/activity_vertical_margin"
+                    android:background="#eee" />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/buttonLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:orientation="horizontal"
+                android:paddingLeft="@dimen/activity_vertical_margin"
+                android:paddingRight="@dimen/activity_vertical_margin">
+
+
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1sp"
+                android:layout_marginTop="@dimen/activity_vertical_margin"
+                android:background="#eee" />
+
+
+        </LinearLayout>
+
+
+        <!--  Bottom Address & Login Layout-->
+        <LinearLayout
+            android:id="@+id/bottom_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:background="#eee"
+            android:orientation="vertical">
+
+            <!--Selected Location Info Layout-->
+
+            <LinearLayout
+                android:background="@color/light_transparent"
+                android:id="@+id/location_info_layout"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_80sdp"
+                android:orientation="vertical"
+                android:visibility="visible">
+
+            </LinearLayout>
+
+            <RelativeLayout
+                android:id="@+id/location_error_layout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:gravity="center"
+                android:paddingBottom="@dimen/_7sdp"
+                android:paddingLeft="@dimen/activity_horizontal_margin"
+                android:paddingRight="@dimen/activity_horizontal_margin"
+                android:paddingTop="@dimen/_7sdp"
+                android:visibility="gone">
+
+                <ImageView
+                    android:id="@+id/map_marker_image"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:src="@drawable/ic_map_marker" />
+
+                <TextView
+                    android:id="@+id/location_error_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@id/map_marker_image"
+                    android:text="You Seem to be in a new Location"
+                    android:textColor="@color/colorPrimaryText" />
+
+                <TextView
+                    android:id="@+id/location_error_sub_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/location_error_title"
+                    android:layout_toRightOf="@id/map_marker_image"
+                    android:text="You Seem to be in a new Location"
+                    android:textColor="@color/colorSecondaryText"
+                    android:textSize="10sp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/location_error_sub_title"
+                    android:layout_marginTop="@dimen/_7sdp"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:id="@+id/add_address_btn"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_35sdp"
+                        android:layout_margin="@dimen/_5sdp"
+                        android:layout_weight="1"
+                        android:background="@drawable/button_corner_bg_theme"
+                        android:text="@string/add_address"
+                        android:textColor="@color/colorTextWhite" />
+
+                    <Button
+                        android:id="@+id/selected_address_btn"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_35sdp"
+                        android:layout_margin="@dimen/_5sdp"
+                        android:layout_weight="1"
+                        android:background="@drawable/button_corner_bg_green"
+                        android:text="@string/select_address"
+                        android:textColor="@color/colorTextWhite"
+                        android:visibility="gone" />
+
+                </LinearLayout>
+
+            </RelativeLayout>
+
+
+            <ImageView
+                android:id="@+id/dummy_image_view"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_45sdp"
+                android:layout_below="@+id/add_address_btn"
+                android:visibility="gone" />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+
+
+</RelativeLayout>

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="?attr/actionBarSize">
+
+    <RelativeLayout
+        android:id="@+id/error_loading_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:padding="8dp"
+            android:text="loading..." />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:id="@+id/location_ll"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:background="?attr/selectableItemBackground"
+            android:clickable="true"
+            android:gravity="center_vertical"
+            android:orientation="vertical"
+            android:visibility="invisible">
+
+
+            <TextView
+                android:id="@+id/address_label"
+                fontPath="fonts/Nunito-Bold.ttf"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableEnd="@drawable/ic_down"
+                android:drawablePadding="8dp"
+                android:maxLines="1"
+                android:text="Home"
+                android:textAllCaps="true"
+                android:ellipsize="end"
+                android:singleLine="true"
+                android:textColor="@color/colorPrimaryText"
+                android:textSize="@dimen/text_small" />
+
+            <TextView
+                android:id="@+id/address"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:maxLines="1"
+                android:ellipsize="end"
+                android:paddingStart="0dp"
+                android:paddingEnd="@dimen/_8sdp"
+                android:textColor="@color/colorSecondaryText"
+                android:textSize="@dimen/text_tiny" />
+
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/filter_selection_image"
+            android:layout_width="@dimen/_6sdp"
+            android:layout_height="@dimen/_6sdp"
+            android:layout_gravity="center_vertical"
+            android:src="@drawable/circle"
+            android:visibility="gone" />
+
+        <Button
+            android:paddingEnd="@dimen/activity_vertical_margin_half"
+            android:id="@+id/filter"
+            android:visibility="invisible"
+            fontPath="fonts/Nunito-Bold.ttf"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="?attr/selectableItemBackground"
+            android:drawableEnd="@drawable/ic_filter"
+            android:gravity="center"
+            android:text="@string/filter"
+            android:textAllCaps="true"
+            android:textColor="@color/colorPrimaryText"
+            android:textSize="@dimen/text_tiny" />
+
+    </LinearLayout>
+
+</RelativeLayout>

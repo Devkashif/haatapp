@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_color">
+
+
+    <ImageView
+        android:id="@+id/back_img"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/back"
+        android:layout_margin="@dimen/activity_horizontal_margin"
+        android:src="@drawable/ic_back"
+        android:visibility="gone" />
+
+    <!--   App Icon Image-->
+
+    <ImageView
+        android:id="@+id/app_logo"
+        android:layout_width="@dimen/_100sdp"
+        android:layout_height="@dimen/_100sdp"
+        android:contentDescription="@string/app_name"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/_50sdp"
+        android:src="@drawable/app_icon"
+        android:visibility="invisible"
+        />
+
+    <!--   Mobile Number Layout-->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/app_logo"
+        android:layout_gravity="bottom"
+        android:layout_marginTop="30dp"
+        android:gravity="bottom"
+        android:orientation="vertical"
+        android:padding="@dimen/activity_common_margin">
+
+
+        <RelativeLayout
+            android:id="@+id/mobile_number_layout"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/edit_text_size"
+            android:background="@drawable/shadow_view">
+
+            <ImageView
+                android:id="@+id/countryImage"
+                android:layout_width="@dimen/_20sdp"
+                android:layout_height="@dimen/_20sdp"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="@dimen/_10sdp"
+                android:src="@drawable/flag_in" />
+
+            <TextView
+                android:id="@+id/countryNumber"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="@dimen/_6sdp"
+                android:layout_toEndOf="@+id/countryImage"
+                android:gravity="center"
+                android:text="+91"
+                android:textSize="@dimen/text_normal" />
+
+            <EditText
+                android:id="@+id/et_mobile_number"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentBottom="true"
+                android:layout_toEndOf="@+id/countryNumber"
+                android:background="@null"
+                android:hint="@string/mobile_number"
+                android:imeOptions="actionDone"
+                android:inputType="number"
+                android:maxLines="1"
+                android:paddingStart="@dimen/_10sdp"
+                android:paddingEnd="@dimen/_10sdp"
+                android:textSize="@dimen/text_normal" />
+        </RelativeLayout>
+
+
+        <Button
+            android:id="@+id/next_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:background="@color/colorAccent"
+            android:text="@string/next"
+            android:textColor="@color/colorWhite" />
+
+        <TextView
+            android:id="@+id/already_have_aacount_txt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/activity_vertical_margin"
+            android:text="@string/already_you_have_account"
+            android:textColor="@color/colorTextBlack"
+            android:textSize="@dimen/text_small" />
+
+    </LinearLayout>
+
+
+    <!--  Social Login Layout-->
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true">
+
+        <include layout="@layout/social_login_layout" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

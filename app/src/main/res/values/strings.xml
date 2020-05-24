@@ -1,0 +1,227 @@
+<resources>
+    <string name="app_name" translatable="false">"Haat"</string>
+
+    <string name="facebook_app_id">220017079204487</string>
+
+    <string name="login">Login</string>
+    <string name="logout">Logout</string>
+    <string name="name">Name</string>
+    <string name="username">Username</string>
+    <string name="mobile_number">Mobile number</string>
+    <string name="email_address">Email Address</string>
+    <string name="enter_email_address">Enter Email Address</string>
+    <string name="confirm">Confirm</string>
+    <string name="password">Password</string>
+    <string name="register_this_account">"Don't have an account?"</string>
+    <string name="let_impress_you">"Let's impress you with our stores"</string>
+    <string name="hundred_restaurant">"100 Restaurants"</string>
+    <string name="discover">"Discover"</string>
+    <string name="offers_near_you">"Offers Near You"</string>
+    <string name="filter">Filter</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="manage_address">Manage Address</string>
+    <string name="payment">Payment</string>
+    <string name="add_new_card">Add New Card</string>
+    <string name="set_delivery_location">Set Delivery Location</string>
+    <string name="search_place">"Search for area, street name…"</string>
+    <string name="change_password">"Change Password"</string>
+    <string name="favourites">"Favourites"</string>
+    <string name="filters">"Filters"</string>
+    <string name="reset">"Reset"</string>
+    <string name="edit_account">"Edit Account"</string>
+    <string name="address">"Address"</string>
+    <string name="restaurant">"Sangeetha"</string>
+    <string name="current_location">"Current Location"</string>
+    <string name="dish">"Dish"</string>
+    <string name="home">"Home"</string>
+    <string name="work">"Work"</string>
+    <string name="other">"Other"</string>
+    <string name="save">"Save"</string>
+    <string name="saved_addresses">"Saved Addresses"</string>
+    <string name="edit">"Edit"</string>
+    <string name="delete">"Delete"</string>
+    <string name="delete_confirm">"Do you really want to delete?"</string>
+    <string name="orders">"Orders"</string>
+    <string name="apply_filter">"Apply Filter"</string>
+
+    <string name="large_text">
+        "Material is the metaphor.\n"
+        <!--"A material metaphor is the unifying theory of a rationalized space and a system of motion."-->
+        <!--"The material is grounded in tactile reality, inspired by the study of paper and ink, yet "-->
+        "seams, divides space, and indicates moving parts."
+    </string>
+
+
+    <string name="getting_address">"Getting Address"</string>
+    <string name="fresh">F r e s h</string>
+    <string name="fresh_description">Discover medical stores and hold your favourite medical store</string>
+    <string name="signin">Sign in</string>
+    <string name="sign_in">Sign in</string>
+    <string name="signup">Sign up</string>
+    <string name="search">S e a r c h</string>
+    <string name="search_description">View menus, photos and reviews for medical store around you</string>
+    <string name="bookmark">B o o k m a r k</string>
+    <string name="bookmark_description">Add places you want to visit in the future to your beauty</string>
+    <string name="already_you_have_account">Already you have an account?</string>
+    <string name="signin_here">SIGN IN here</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="next">Next</string>
+    <string name="verification_code_txt">Verification Code</string>
+    <string name="continue_txt">Continue</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="new_password">New Password</string>
+    <string name="change">Change</string>
+    <string name="register">Register</string>
+    <string name="cart_error_title">Good food is always getting cooked</string>
+    <string name="cart_error_description">Please order the items</string>
+    <string name="proceed_to_pay">Proceed to pay</string>
+    <string name="add_address">Add Address</string>
+    <string name="change_address">Change Address</string>
+    <string name="old_password">Old Password</string>
+    <string name="select_address">Select Address</string>
+    <string name="submit">Submit</string>
+    <string name="enter_secret_key">Enter your secret key</string>
+    <string name="account">Account</string>
+    <string name="login_or_sign_up_to_place_order">Login or Signup to place your order</string>
+    <string name="please_login_and_order_dishes">Please login and order</string>
+    <string name="manage_address_error_title">Knock Knock ! Who\'s there ?</string>
+    <string name="manage_address_error_description">Saving address helps you check out faster</string>
+
+    <!--Order Flow Title-->
+    <string name="order_placed">Order Placed</string>
+    <string name="order_confirmed">Order Confirmed</string>
+    <string name="order_processed">Order Processed</string>
+    <string name="order_pickedup">Order Pickedup</string>
+    <string name="order_delivered">Order Delivered</string>
+    <string name="order_cancelled">Order Cancelled</string>
+
+    <!--Order Flow Description-->
+    <string name="description_1">We have received your order.</string>
+    <string name="description_2">Your order has been confirmed.</string>
+    <string name="description_3">Your food is getting cooked.</string>
+    <string name="description_4">Your food is on its way.</string>
+    <string name="description_5">Enjoy your meal.</string>
+
+    <!--Past Order Page-->
+    <string name="order_delivered_successfully">Order Delivered Successfully</string>
+    <string name="order_delivered_successfully_on">Order Delivered Successfully on </string>
+    <string name="address_hint">Ex : Dad\'s place, John\'s Home</string>
+    <string name="cancel">Cancel</string>
+
+    <!--PAYMENT SCREEN-->
+    <string name="wallet_amount">Wallet Amount</string>
+    <string name="card">CARD</string>
+    <string name="pay_on_delivery">PAY ON DELIVERY</string>
+    <string name="by_cash">By cash</string>
+    <string name="walletHistory">WALLET</string>
+    <string name="history">History</string>
+    <string name="add">Add</string>
+    <string name="payment_options">Payment options</string>
+    <string name="promotion_details">Promotion details</string>
+    <string name="add_money">Add amount</string>
+    <string name="enter_the_amount">Enter the amount</string>
+    <string name="pay">pay</string>
+    <string name="promo_apply_text">Apply promo code to avail exciting offers</string>
+    <string name="apply">Apply</string>
+    <string name="promocode">Promocode</string>
+    <string name="use_wallet">Use wallet</string>
+    <string name="google_login_failed">Google login failed</string>
+    <string name="dispute">Dispute</string>
+
+    <!--    Check Internet Conneciton  -->
+    <string name="oops_connect_your_internet">Oops ! Connect your Internet.</string>
+    <string name="retry">Retry</string>
+    <string name="server_down">Server down</string>
+    <string name="no_internet_found_check_your_internet_connection">No internet found.\nCheck your internet connection or try again</string>
+
+    <!--   Braintree  -->
+
+    <string name="loading">Loading....</string>
+    <string name="paypal_billing_agreement">Billing Agreement</string>
+    <string name="nonce">nonce</string>
+
+    <!-- CreateTransactionActivity -->
+    <string name="processing_transaction">Processing Transaction</string>
+    <string name="transaction_failed">Transaction Failed</string>
+    <string name="transaction_complete">Transaction Complete</string>
+
+    <!-- Alert Dialog -->
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="replace_cart_item">Replace cart item?</string>
+    <string name="do_you_want_to_discart_the_selection_and_add_dishes_from_the_restaurant">Do you want to discard the selected items and add items from this store</string>
+    <string name="enter_card_details">Card details not valid</string>
+    <string name="add_card">Add card</string>
+    <string name="okay">Okay</string>
+
+    <!-- PROMOCODE  -->
+
+    <string name="promo_code_apply_successfully">Promocode is applied and offer amount is added to your wallet.</string>
+
+    <!--  SIGN UP  -->
+    <string name="please_enter_username">Please enter your username</string>
+    <string name="please_enter_your_email">Please enter your email</string>
+    <string name="please_enter_valid_email">Please enter valid email</string>
+    <string name="please_enter_your_mobile_number">Please enter your mobile number</string>
+    <string name="please_enter_password">Please enter your password</string>
+    <string name="please_enter_your_confirm_password">Please enter your confirm password</string>
+    <string name="password_and_confirm_password_doesnot_match">Password and confirm password doesn\'t match</string>
+    <string name="profile_updated_successfully">Profile updated successfully.</string>
+    <string name="network_error_toast">Something went wrong</string>
+    <string name="add_ons">AddOns</string>
+    <string name="custom_notes">Custom Notes</string>
+    <string name="write_something">Write Something</string>
+    <string name="product">Product</string>
+    <string name="customize">Customize</string>
+    <string name="your_previous_customization">Your previous customization</string>
+    <string name="i_will_choose">I\'ll choose</string>
+    <string name="repeat">Repeat</string>
+    <string name="remove_item_from_cart">Remove item from cart</string>
+    <string name="remove_item_from_cart_description">The item has multiple customization added.Proceed to cart to remove item?</string>
+    <string name="add_custom_notes">Add Custom Notes</string>
+    <string name="featured_products">Featured Products</string>
+    <string name="reorder_confirm_message">Your cart contains items from %1$s. Do you want to discard the selection and add items from %2$s ?</string>
+    <string name="no_result">No Results</string>
+    <string name="what_is_love">what is love</string>
+    <string name="fav_description">Once you favorite a restaurant, it will appear here.</string>
+    <string name="close">Close</string>
+    <string name="no_addons">No Addons</string>
+    <string name="add_new_address">Add New Address</string>
+    <string name="back">back</string>
+    <string name="notifications">Notifications</string>
+    <string name="looks_empty">LOOKS EMPTY!</string>
+    <string name="order_list_empty_description">There are a lot of yummy stuff out there. Pick some.</string>
+    <string name="past_orders">Past Orders</string>
+    <string name="reason">Reason</string>
+    <string name="dispute_reason_description">Are you facing any issue which we can assist with? Please reach out to us we will be happy to help !</string>
+    <string name="chat_us">Chat us</string>
+    <string name="please_type_verification_code">Please type the verification code</string>
+    <string name="did_not_get_otp">Didn\'t get the OTP</string>
+    <string name="resend_otp">Resend OTP</string>
+    <string name="add_item">Add Item</string>
+    <string name="promotion_list_empty">Promotion list empty</string>
+    <string name="promotion_empty_description">Once you have promotion code, it will appear here.</string>
+    <string name="skip">Skip</string>
+    <string name="food">Food</string>
+    <string name="help">Help</string>
+    <string name="type_a_message">Type a message</string>
+    <string name="my_account">My Account</string>
+    <string name="reorder">Reorder</string>
+    <string name="please_login">Please login</string>
+
+    <string name="no_restaurant_found">No Restaurants!</string>
+    <string name="no_restaurant_found_in_your_location">See if any other filter works.</string>
+
+
+    <plurals name="item">
+        <item quantity="one">%d Item</item>
+        <item quantity="other">%d Items</item>
+    </plurals>
+    <plurals name="add_ons">
+        <item quantity="one">+%d Add-On</item>
+        <item quantity="other">+%d Add-Ons</item>
+    </plurals>
+
+
+</resources>

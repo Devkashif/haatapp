@@ -1,0 +1,32 @@
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="16dp"
+    android:visibility="gone"
+    android:id="@+id/cart_header"
+    android:layout_alignParentBottom="true"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView
+        android:id="@+id/item"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="1 item | $200"
+        android:maxLines="1"
+        android:textSize="@dimen/text_medium"
+        android:textColor="@color/colorWhite"
+        android:layout_weight="1"/>
+
+    <TextView
+        android:id="@+id/open_cart"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="view Cart"
+        android:textAllCaps="true"
+        android:gravity="end|center"
+        android:drawableEnd="@drawable/ic_cart_white"
+        android:textSize="@dimen/text_medium"
+        android:textColor="@color/colorWhite"
+        android:maxLines="1"
+        android:layout_weight="1"/>
+
+</LinearLayout>

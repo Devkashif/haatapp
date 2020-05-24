@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#fbfbfb">
+
+        <ListView
+            android:id="@+id/chat_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:clipToPadding="false"
+            android:divider="@null"
+            android:layout_marginBottom="60dp"
+            android:stackFromBottom="true"
+            android:transcriptMode="alwaysScroll"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/chat_edit_text">
+
+                <EditText
+                    android:id="@+id/et_message"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:layout_toStartOf="@+id/btn_send"
+                    android:background="@null"
+                    android:inputType="textAutoCorrect"
+                    android:maxLines="1"
+                    android:hint="@string/type_a_message"
+                    android:paddingStart="12dp"
+                    android:paddingEnd="12dp" />
+
+                <ImageView
+                    android:id="@+id/btn_send"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:layout_alignParentEnd="true"
+                    android:padding="12dp"
+                    android:src="@drawable/send" />
+            </RelativeLayout>
+
+        </LinearLayout>
+    </RelativeLayout>
+
+</LinearLayout>

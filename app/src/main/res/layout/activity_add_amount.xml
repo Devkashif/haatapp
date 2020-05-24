@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f2f2f2"
+    android:orientation="vertical"
+    tools:context="com.haatapp.app.activities.AccountPaymentActivity">
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/toolbar" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#f2f2f2"
+        android:layout_above="@+id/pay_btn"
+        android:layout_below="@+id/toolbar"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            android:text="@string/payment_options"
+            android:textAllCaps="true"
+            android:textColor="@color/colorSecondaryText"
+            android:textSize="@dimen/text_medium" />
+
+
+        <ListView
+            android:id="@+id/payment_method_lv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/white" />
+
+        <RelativeLayout
+            android:id="@+id/promo_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/white"
+            android:padding="16dp">
+
+            <ImageView
+                android:id="@+id/promo_img"
+                android:layout_width="@dimen/_20sdp"
+                android:layout_height="@dimen/_20sdp"
+                android:layout_centerVertical="true"
+                android:contentDescription="@string/app_name"
+                android:src="@drawable/ic_promotion_details" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_marginStart="@dimen/_15sdp"
+                android:layout_toEndOf="@+id/promo_img"
+                android:text="@string/promotion_details"
+                android:textColor="@color/colorPrimaryText"
+                android:textSize="@dimen/text_medium"
+                fontPath="fonts/Nunito-Bold.ttf" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_35sdp"
+            android:layout_marginTop="@dimen/_30sdp"
+            android:weightSum="2">
+
+            <TextView
+                android:id="@+id/enter_amount_lbl"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="@dimen/_15sdp"
+                android:gravity="center"
+                android:text="@string/enter_the_amount"
+                android:textAllCaps="true"
+                android:textColor="@color/colorPrimaryText"
+                android:textSize="@dimen/text_medium"
+                fontPath="fonts/Nunito-Bold.ttf" />
+
+            <EditText
+                android:id="@+id/amount_txt"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_alignParentEnd="true"
+                android:layout_marginLeft="@dimen/_20sdp"
+                android:layout_marginRight="@dimen/_20sdp"
+                android:imeOptions="actionDone"
+                android:padding="@dimen/_5sdp"
+                android:layout_toEndOf="@+id/enter_amount_lbl"
+                android:inputType="number"
+                android:background="@color/colorWhite"
+                android:textColor="@color/colorAccent" />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/pay_btn"
+        android:layout_width="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="@dimen/_15sdp"
+        android:text="@string/pay"
+        android:background="@drawable/button_corner_bg_theme"
+        android:textAllCaps="true"
+        android:textSize="@dimen/text_medium"
+        android:textColor="@color/colorTextWhite"
+        android:layout_height="wrap_content" />
+
+</RelativeLayout>

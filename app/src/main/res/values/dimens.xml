@@ -1,0 +1,29 @@
+<resources>
+    <dimen name="text_margin">@dimen/_14sdp</dimen>
+
+    <dimen name="text_large">@dimen/_17sdp</dimen>
+    <dimen name="text_medium">@dimen/_13sdp</dimen>
+    <dimen name="text_normal">@dimen/_15sdp</dimen>
+    <dimen name="text_small">@dimen/_11sdp</dimen>
+    <dimen name="text_small_large">@dimen/_12sdp</dimen>
+    <dimen name="text_tiny">@dimen/_10sdp</dimen>
+
+
+    <dimen name="edit_text_size">@dimen/_42sdp</dimen>
+    <dimen name="botttom_bar_size">@dimen/_45sdp</dimen>
+
+    <dimen name="cp_dialog_width">@dimen/_300sdp</dimen>
+    <dimen name="cp_dialog_height">@dimen/_400sdp</dimen>
+
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">@dimen/_14sdp</dimen>
+    <dimen name="activity_vertical_margin">@dimen/_14sdp</dimen>
+    <dimen name="activity_vertical_margin_half">@dimen/_7sdp</dimen>
+    <dimen name="activity_common_margin">@dimen/_14sdp</dimen>
+
+    <dimen name="header_view_start_margin_left">@dimen/_16sdp</dimen>
+    <dimen name="header_view_end_margin_left">@dimen/_44sdp</dimen>
+    <dimen name="header_view_end_margin_right">@dimen/_14sdp</dimen>
+    <dimen name="header_view_start_margin_bottom">@dimen/_14sdp</dimen>
+</resources>

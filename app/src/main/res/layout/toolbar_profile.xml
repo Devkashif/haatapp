@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingBottom="5dp"
+        android:paddingTop="5dp">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/user_image"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:padding="4dp" />
+
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="start"
+            android:orientation="vertical"
+            android:paddingEnd="@dimen/_8sdp"
+            android:paddingStart="@dimen/_8sdp">
+
+            <TextView
+                android:id="@+id/user_name"
+                fontPath="fonts/Nunito-Bold.ttf"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:maxLines="1"
+                android:textAllCaps="true"
+                android:textColor="@color/colorTextBlack"
+                android:textSize="@dimen/text_medium" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/user_phone"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:maxLines="1"
+                    android:paddingEnd="@dimen/_5sdp"
+                    android:paddingStart="0dp"
+                    android:textSize="@dimen/text_tiny" />
+
+                <TextView
+                    android:id="@+id/user_mail"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:maxLines="1"
+                    android:layout_weight="1"
+                    android:paddingEnd="@dimen/_5sdp"
+                    android:ellipsize="end"
+                    android:paddingStart="@dimen/_5sdp"
+                    android:textSize="@dimen/text_tiny" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <Button
+            android:paddingEnd="@dimen/_10sdp"
+            android:id="@+id/edit"
+            android:layout_width="@dimen/_40sdp"
+            android:layout_height="match_parent"
+            android:background="?attr/selectableItemBackground"
+            android:gravity="end|center_vertical"
+            android:text="@string/edit"
+            android:textColor="@color/colorAccent"
+            android:textSize="@dimen/text_small" />
+
+    </LinearLayout>
+
+</LinearLayout>
+

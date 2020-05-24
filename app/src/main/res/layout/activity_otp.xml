@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_color"
+    tools:context=".activities.WelcomeScreenActivity">
+
+    <ImageView
+        android:id="@+id/otp_image"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:contentDescription="@string/verification_code_txt"
+        android:src="@drawable/otp_bg" />
+
+    <TextView
+        android:id="@+id/verification_code_txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/otp_image"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:text="@string/verification_code_txt"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/veri_txt1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/verification_code_txt"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:text="@string/please_type_verification_code" />
+
+    <RelativeLayout
+        android:id="@+id/rel_verificatin_code"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/veri_txt1"
+        android:layout_centerHorizontal="true">
+
+        <TextView
+            android:id="@+id/veri_txt2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_6sdp"
+            android:text="sent to your" />
+
+        <TextView
+            android:id="@+id/mobile_number_txt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginStart="@dimen/_6sdp"
+            android:layout_marginTop="@dimen/_6sdp"
+            android:layout_toEndOf="@+id/veri_txt2"
+            android:textColor="@color/colorAccent" />
+
+    </RelativeLayout>
+
+    <me.philio.pinentry.PinEntryView
+        android:id="@+id/otp_value1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/rel_verificatin_code"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        app:accentType="character"
+        app:digitBackground="@drawable/otp_square"
+        app:digitHeight="@dimen/_35sdp"
+        app:digitSpacing="@dimen/_10sdp"
+        app:digitTextColor="@android:color/white"
+        app:digitTextSize="@dimen/_6sdp"
+        app:digitWidth="@dimen/_35sdp"
+        app:mask=""
+        app:numDigits="6"
+        app:pinInputType="number" />
+
+    <Button
+        android:id="@+id/otp_continue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/otp_value1"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="@dimen/_60sdp"
+        android:background="@color/colorAccent"
+        android:text="@string/continue_txt"
+        android:textColor="@color/colorWhite" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/otp_continue"
+        android:layout_marginTop="@dimen/_6sdp"
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:text="@string/did_not_get_otp" />
+
+        <TextView
+            android:id="@+id/resend_otp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:text="@string/resend_otp"
+            android:textAllCaps="true"
+            android:textColor="@color/colorAccent" />
+    </LinearLayout>
+
+</RelativeLayout>
